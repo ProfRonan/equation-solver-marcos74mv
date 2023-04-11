@@ -1,4 +1,4 @@
-# PRIMERO GRAU
+# primeiro grau
 
 grau = int(input('Digite o grau da equação: '))
 
@@ -17,9 +17,11 @@ if grau == 1:
         
     print(f'o valor de X é {x:.2f}')
 
+# segundo grau  
+
 if grau == 2:
     print('A equação é do segundo grau')
-    a = int(input('Digite o valor de a:'))
+    a = int(input('Digite o valor de a: '))
     if a == 0:
         print('valor de a inválido')
     else:
