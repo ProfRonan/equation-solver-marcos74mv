@@ -29,7 +29,7 @@ if grau == 2:
         if b2_4ac < 0 : 
             print("A equação não possui raízes reais") 
         elif b2_4ac == 0: 
-            print("A equação possui apenas uma raiz real") 
+            print("A equação possui uma raiz real") 
             uma_raiz = (-(b) + b2_4ac**0.5) / (2*a) 
             print(f"{uma_raiz:.2f}") 
         elif b2_4ac > 0: 
